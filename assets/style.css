@@ -1,0 +1,127 @@
+:root{
+  --max: 720px;
+  --pad: 20px;
+  --radius: 12px;
+  --border: #e6e6e6;
+  --muted: #666;
+  --bg: #fff;
+}
+
+*{ box-sizing: border-box; }
+html{ -webkit-text-size-adjust: 100%; }
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  line-height: 1.55;
+  color: #111;
+  background: var(--bg);
+}
+
+a{ color: inherit; text-underline-offset: 3px; }
+a:hover{ text-decoration-thickness: 2px; }
+
+.header{
+  border-bottom: 1px solid var(--border);
+  background: #fff;
+}
+.header-inner{
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 16px var(--pad);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+.brand{
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+.nav{
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.nav a{ text-decoration: none; }
+.nav a:hover{ text-decoration: underline; }
+
+main{
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 28px var(--pad) 36px;
+}
+h1{
+  font-size: 2.1rem;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin: 0 0 12px;
+}
+h2{
+  font-size: 1.25rem;
+  margin: 28px 0 10px;
+  letter-spacing: -0.01em;
+}
+p{ margin: 0 0 14px; }
+
+.lede{
+  font-size: 1.05rem;
+  color: #222;
+  margin-bottom: 18px;
+}
+
+.card{
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 14px 12px;
+  background: #fff;
+  margin: 16px 0;
+}
+.answer{
+  border-left: 4px solid #111;
+  padding-left: 12px;
+}
+.meta{
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+ul, ol{ padding-left: 18px; }
+li{ margin: 6px 0; }
+
+kbd{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9em;
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-bottom-width: 2px;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.footer{
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.footer-inner{
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 16px var(--pad) 28px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.breadcrumb{
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.breadcrumb a{
+  color: var(--muted);
+  text-decoration: none;
+}
+.breadcrumb a:hover{ text-decoration: underline; }
