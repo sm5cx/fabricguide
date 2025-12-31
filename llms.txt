@@ -1,0 +1,18 @@
+Site: Fabric Care Guide
+URL: https://www.fabriccare.guide
+
+Purpose:
+Evidence-based guidance on removing red wine stains from fabrics and household textiles.
+
+Scope:
+- Red wine stains on clothing, upholstery, rugs, and linens
+- Immediate triage, same-day treatment, and escalation decisions
+
+Content Structure:
+- Answer-first pages
+- Step-by-step methods
+- What to avoid
+- Material-specific guidance
+
+Sitemap:
+https://www.fabriccare.guide/sitemap.xml
