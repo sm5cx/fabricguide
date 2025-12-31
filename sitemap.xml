@@ -1,35 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fabriccare.guide/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://www.fabriccare.guide/</loc>
+    <lastmod>2025-12-23</lastmod>
   </url>
-
   <url>
-    <loc>https://fabriccare.guide/stains/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.fabriccare.guide/about.html</loc>
+    <lastmod>2025-12-23</lastmod>
   </url>
-
   <url>
-    <loc>https://fabriccare.guide/stains/red-wine-on-cotton.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.fabriccare.guide/methodology.html</loc>
+    <lastmod>2025-12-23</lastmod>
   </url>
-
   <url>
-    <loc>https://fabriccare.guide/about.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <loc>https://www.fabriccare.guide/stains/index.html</loc>
+    <lastmod>2025-12-23</lastmod>
   </url>
-
   <url>
-    <loc>https://fabriccare.guide/methodology.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-carpet.html</loc>
+    <lastmod>2025-12-31</lastmod>
   </url>
-
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-cotton-blouse.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-cotton-napkin.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-cotton-shirt.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-cotton-t-shirt.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-cotton-tablecloth.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-cotton.html</loc>
+    <lastmod>2025-12-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-dark-carpet.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-decorative-rug.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-fabric-cushions.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-fabric-rug.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-high-pile-rug.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-linen-dress.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-linen-napkin.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-linen-shirt.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-linen-table-runner.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-linen-tablecloth.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-low-pile-rug.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-polyester-dress.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-rental-carpet.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-shag-rug.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-silk-blouse.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-silk-scarf.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-sofa-arm.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-textile-carpet-1.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-textile-carpet.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-upholstery-cushion-1.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-upholstery-cushion-2.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-upholstery-cushion.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-wool-sweater-1.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.fabriccare.guide/stains/red-wine-on-wool-sweater.html</loc>
+    <lastmod>2025-12-31</lastmod>
+  </url>
 </urlset>

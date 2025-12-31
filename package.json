@@ -1,0 +1,7 @@
+{
+  "name": "fabriccare-guide",
+  "private": true,
+  "scripts": {
+    "build:sitemap": "node scripts/build_sitemap_and_index.mjs"
+  }
+}
