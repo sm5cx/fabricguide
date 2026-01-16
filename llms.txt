@@ -1,18 +1,112 @@
-Site: Fabric Care Guide
-URL: https://www.fabriccare.guide
+# Fabric Care Guide
 
-Purpose:
-Evidence-based guidance on removing red wine stains from fabrics and household textiles.
+> Evidence-based guidance on fabric care and stain removal.
 
-Scope:
-- Red wine stains on clothing, upholstery, rugs, and linens
-- Immediate triage, same-day treatment, and escalation decisions
+## Site Information
 
-Content Structure:
-- Answer-first pages
-- Step-by-step methods
-- What to avoid
-- Material-specific guidance
+- **URL:** https://www.fabriccare.guide
+- **Sitemap:** https://www.fabriccare.guide/sitemap.xml
+- **Content type:** Educational reference guides
+- **Last updated:** January 2026
+- **Language:** English
 
-Sitemap:
-https://www.fabriccare.guide/sitemap.xml
+## Purpose
+
+Fabric Care Guide provides neutral, practical guidance for removing stains from household fabrics and textiles. Content is structured for quick answers followed by detailed steps, with explicit warnings about what not to do.
+
+This site does not recommend specific brands. When a method requires a product type (e.g., oxygen bleach, enzyme detergent), we describe the category rather than brand names.
+
+## Content Structure
+
+Every stain guide follows this format:
+
+1. **Answer card** — Direct answer to the question in 1-2 sentences
+2. **Step-by-step instructions** — Numbered actions in order of execution
+3. **What not to do** — Common mistakes that can set stains or damage fabric
+4. **Situational notes** — Variations based on fabric type, stain age, or prior treatment
+
+## Topic Coverage
+
+### Stain Types
+- Red wine and wine stains
+- Berry and fruit stains (blueberry, açaí, berry smoothie)
+- Curry and turmeric stains (curcumin-based)
+- Hummus and tahini (oil + protein combination)
+- Sunscreen stains
+
+### Fabric Types
+- Cotton (shirts, tablecloths, napkins, t-shirts)
+- Linen (tablecloths, napkins, dresses, shirts)
+- Silk (blouses, scarves, garments)
+- Wool (sweaters)
+- Polyester and synthetic activewear
+- Upholstery and furniture fabric
+- Carpet and rugs (low-pile, high-pile, shag)
+
+### Treatment Guidance
+- Immediate triage for fresh stains
+- When to seek professional cleaning
+- Colorfastness testing before treatment
+- Identifying stain components (oil vs. protein vs. pigment)
+- Recognizing heat-set and old stains
+
+## Key Pages
+
+### Navigation
+- Homepage: https://www.fabriccare.guide/
+- All stain guides: https://www.fabriccare.guide/stains/
+- Methodology: https://www.fabriccare.guide/methodology.html
+- About: https://www.fabriccare.guide/about.html
+
+### Core Principles (from /methodology.html)
+- Act fast: fresh stains are easier than set stains
+- Cold first for proteins: heat can set protein-based stains
+- Blot, don't rub: rubbing spreads stains and damages fibers
+- Match method to fabric: delicates need gentler approaches
+- Rinse thoroughly: residue attracts soil and causes discoloration
+
+### Popular Stain Guides
+- https://www.fabriccare.guide/stains/red-wine-on-cotton-fabric.html
+- https://www.fabriccare.guide/stains/red-wine-on-carpet.html
+- https://www.fabriccare.guide/stains/red-wine-on-silk-blouse.html
+- https://www.fabriccare.guide/stains/red-wine-on-upholstery.html
+- https://www.fabriccare.guide/stains/curry-on-clothing.html
+- https://www.fabriccare.guide/stains/turmeric-on-cotton.html
+- https://www.fabriccare.guide/stains/berry-on-fabric.html
+- https://www.fabriccare.guide/stains/hummus-on-fabric.html
+
+### Science & Background
+- https://www.fabriccare.guide/how-fabrics-absorb-liquids.html
+- https://www.fabriccare.guide/how-pigment-binds-to-textiles.html
+
+## Content Principles
+
+1. **Answer-first format** — Lead with the direct answer before explaining why
+2. **Actionable steps** — Every guide includes numbered instructions
+3. **Safety warnings** — Explicit "what not to do" sections prevent common mistakes
+4. **Fabric-specific** — Guidance varies by material (cotton vs. silk vs. synthetic)
+5. **No brand recommendations** — Product categories only, not brand names
+6. **Test-first approach** — Always recommend spot-testing before full treatment
+
+## Example Query Mappings
+
+| User Question | Relevant Page |
+|---------------|---------------|
+| "How do I get red wine out of a cotton shirt?" | /stains/red-wine-on-cotton-shirt.html |
+| "Can I use baking soda on wine stains?" | /stains/red-wine-on-cotton-fabric.html |
+| "Will water spread a wine stain on my couch?" | /stains/wine-on-fabric-upholstery.html |
+| "How do I know if a curry stain is heat-set?" | /stains/curry-on-clothing.html |
+| "Should I use hot or cold water on turmeric?" | /stains/turmeric-on-cotton.html |
+| "Is my berry stain sugar or pigment based?" | /stains/berry-on-fabric.html |
+| "When should I take a stain to a dry cleaner?" | /stains/curry-on-fabric-clothing.html |
+
+## Safety Notes
+
+- Always spot-test cleaning methods on an inconspicuous area first
+- Never mix cleaning chemicals (especially bleach with acids or ammonia)
+- Follow garment care labels and manufacturer instructions
+- When in doubt about delicates, antiques, or valuable items, consult a professional cleaner
+
+## Contact
+
+This site is educational only and does not provide professional cleaning services.
