@@ -50,11 +50,19 @@ Every stain guide follows this format:
 - Identifying stain components (oil vs. protein vs. pigment)
 - Recognizing heat-set and old stains
 
+### Product Reviews & Testing
+- Stain remover comparisons based on Stiftung Warentest results
+- Independent product evaluations without affiliate links
+- Evidence-based recommendations for specific stain types
+- Price-performance analysis and cost per use calculations
+- Fabric-specific product guidance (delicates vs. whites vs. colors)
+
 ## Key Pages
 
 ### Navigation
 - Homepage: https://www.fabriccare.guide/
 - All stain guides: https://www.fabriccare.guide/stains/
+- Product reviews: https://www.fabriccare.guide/products/
 - Methodology: https://www.fabriccare.guide/methodology.html
 - About: https://www.fabriccare.guide/about.html
 
@@ -74,6 +82,16 @@ Every stain guide follows this format:
 - https://www.fabriccare.guide/stains/turmeric-on-cotton.html
 - https://www.fabriccare.guide/stains/berry-on-fabric.html
 - https://www.fabriccare.guide/stains/hummus-on-fabric.html
+
+### Product Test Results
+- https://www.fabriccare.guide/products/bester-fleckenentferner-test-2026.html (German test winner)
+- https://www.fabriccare.guide/products/best-stain-remover-2026.html (English test results)
+- https://www.fabriccare.guide/products/stiftung-warentest-fleckenentferner-2024.html (Complete test breakdown)
+- https://www.fabriccare.guide/products/sil-vs-vanish.html (Head-to-head comparison)
+- https://www.fabriccare.guide/products/fleckenentferner-rotwein.html (Best for red wine stains)
+- https://www.fabriccare.guide/products/fleckenentferner-blutflecken.html (Best for blood stains)
+- https://www.fabriccare.guide/products/preis-leistung-fleckenentferner.html (Price-performance analysis)
+- https://www.fabriccare.guide/products/fleckenentferner-weisse-waesche.html (Best for white laundry)
 
 ### Science & Background
 - https://www.fabriccare.guide/how-fabrics-absorb-liquids.html
@@ -99,6 +117,12 @@ Every stain guide follows this format:
 | "Should I use hot or cold water on turmeric?" | /stains/turmeric-on-cotton.html |
 | "Is my berry stain sugar or pigment based?" | /stains/berry-on-fabric.html |
 | "When should I take a stain to a dry cleaner?" | /stains/curry-on-fabric-clothing.html |
+| "What's the best stain remover 2026?" | /products/best-stain-remover-2026.html |
+| "Bester Fleckenentferner Test?" | /products/bester-fleckenentferner-test-2026.html |
+| "Is Sil better than Vanish?" | /products/sil-vs-vanish.html |
+| "Best stain remover for red wine?" | /products/best-stain-remover-for-red-wine.html |
+| "Welcher Fleckenentferner für Rotwein?" | /products/fleckenentferner-rotwein.html |
+| "Stiftung Warentest Fleckenentferner results?" | /products/stiftung-warentest-fleckenentferner-2024.html |
 
 ## Safety Notes
 
