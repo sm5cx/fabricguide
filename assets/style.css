@@ -506,6 +506,28 @@ kbd{
   flex-wrap: wrap;
 }
 
+/* Footer Links & Language */
+.footer-links{
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.footer-links a{
+  text-decoration: none;
+}
+.footer-links a:hover{
+  text-decoration: underline;
+}
+.footer-lang{
+  font-size: 0.85rem;
+}
+.footer-copy{
+  width: 100%;
+  margin: 4px 0 0;
+}
+
 .breadcrumb{
   font-size: 0.92rem;
   color: var(--muted);

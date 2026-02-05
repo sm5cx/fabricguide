@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stain Emergency Guide — What Did You Spill? Act Now! | Fabric Care Guide</title>
+  <meta name="description" content="Just got a stain? Don't panic. Identify your stain, follow the universal first-aid steps, and act fast. Quick triage for wine, coffee, blood, grease, ink, and more." />
+  <link rel="canonical" href="https://fabriccare.guide/emergency/" />
+
+  <link rel="alternate" hreflang="en" href="https://fabriccare.guide/emergency/" />
+  <link rel="alternate" hreflang="de" href="https://fabriccare.guide/de/notfall/" />
+  <link rel="alternate" hreflang="x-default" href="https://fabriccare.guide/emergency/" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Universal Stain First Aid — Emergency Steps for Any Stain",
+  "description": "Five universal steps that work for any fresh stain. Follow these immediately while you identify the specific stain type and treatment.",
+  "totalTime": "PT5M",
+  "supply": [
+    { "@type": "HowToSupply", "name": "Clean white cloth or paper towel" },
+    { "@type": "HowToSupply", "name": "Cold water" }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Don't rub — blot gently",
+      "text": "Press a clean white cloth or paper towel firmly onto the stain. Lift and repeat. Never rub or scrub — this pushes the stain deeper into fiber structure and spreads it outward."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Cold water immediately",
+      "text": "Flush the stain with cold water from the back of the fabric. NEVER use hot water — heat denatures proteins (blood, egg) and sets tannins (wine, coffee), bonding them permanently to fibers."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Work from outside in",
+      "text": "Always treat a stain from the outer edges toward the center. Working from the center outward pushes the stain into clean fabric, making it larger."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Check the fabric care label",
+      "text": "Before applying any treatment, check the garment care label. Some fabrics (silk, wool) cannot tolerate certain chemicals. When in doubt, use cold water only and seek professional cleaning."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Apply appropriate treatment",
+      "text": "Once the stain is identified, apply the specific treatment for that stain type. Use an enzyme-based stain remover for protein stains, oxygen bleach for tannin stains, or dish soap for grease. Keep the stain wet until fully treated — a dry stain is harder to remove."
+    }
+  ]
+}
+</script>
+
+  <link rel="stylesheet" href="/assets/style.css" />
+  <style>
+    /* Emergency page mobile-first styles */
+    .triage-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin: 20px 0;
+    }
+    .triage-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 18px 12px;
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--primary);
+      background: #fff;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .triage-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+      text-decoration: none;
+    }
+    .triage-icon {
+      font-size: 2.2rem;
+      margin-bottom: 6px;
+      line-height: 1;
+    }
+    .triage-label {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    @media (min-width: 480px) {
+      .triage-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    .first-aid-steps {
+      border-left: 4px solid var(--danger);
+      background: linear-gradient(135deg, #fef2f2 0%, #fff 100%);
+    }
+    .first-aid-steps h2 {
+      color: var(--danger);
+      margin-top: 0;
+    }
+    .timing-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin: 16px 0;
+    }
+    .timing-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px;
+      border-radius: var(--radius);
+      background: var(--light-bg);
+    }
+    .timing-window {
+      font-weight: 700;
+      white-space: nowrap;
+      min-width: 90px;
+      font-size: 0.95rem;
+    }
+    .timing-window.best { color: var(--success); }
+    .timing-window.ok { color: var(--warning); }
+    .timing-window.hard { color: var(--danger); }
+    .timing-window.set { color: #6b7280; }
+    .timing-desc {
+      font-size: 0.95rem;
+    }
+    @media (min-width: 480px) {
+      .timing-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <a href="/" style="text-decoration:none;">Fabric Care Guide</a>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="/stains/">Stains</a>
+        <a href="/products/">Products</a>
+        <a href="/tools/">Tools</a>
+        <a href="/prevention/">Prevention</a>
+        <a href="/methodology.html">Methodology</a>
+        <a href="/about.html">About</a>
+      </nav>
+      <div class="lang-switch">
+        <a href="https://fabriccare.guide/emergency/" class="active">EN</a>
+        <span>|</span>
+        <a href="https://fabriccare.guide/de/notfall/" class="">DE</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="breadcrumb">
+      <a href="/">Home</a> / Stain Emergency Guide
+    </div>
+
+    <h1>🚨 Stain Emergency — What Did You Spill?</h1>
+
+    <p class="lede"><strong>Don't panic.</strong> Tap your stain type below, then follow the universal first-aid steps. Speed is everything — a stain treated within 5 minutes has a 90%+ removal rate.</p>
+
+    <div class="triage-grid">
+      <a href="/stains/red-wine-on-cotton-fabric.html" class="triage-card">
+        <span class="triage-icon">🍷</span>
+        <span class="triage-label">Red Wine</span>
+      </a>
+      <a href="/stains/by-type/wine.html" class="triage-card">
+        <span class="triage-icon">🩸</span>
+        <span class="triage-label">Blood</span>
+      </a>
+      <a href="/stains/berry-on-clothing.html" class="triage-card">
+        <span class="triage-icon">🥤</span>
+        <span class="triage-label">Juice / Berries</span>
+      </a>
+      <a href="/stains/pigment-on-clothing.html" class="triage-card">
+        <span class="triage-icon">🖊️</span>
+        <span class="triage-label">Ink / Marker</span>
+      </a>
+      <a href="/stains/curry-on-clothing.html" class="triage-card">
+        <span class="triage-icon">🍝</span>
+        <span class="triage-label">Food / Sauce</span>
+      </a>
+      <a href="/stains/" class="triage-card">
+        <span class="triage-icon">🌿</span>
+        <span class="triage-label">Grass / Mud</span>
+      </a>
+      <a href="/stains/curry-oil-halo-on-fabric.html" class="triage-card">
+        <span class="triage-icon">🛢️</span>
+        <span class="triage-label">Oil / Grease</span>
+      </a>
+    </div>
+
+    <div class="card first-aid-steps" id="primary-answer">
+      <h2>Universal Stain First Aid</h2>
+      <p><strong>These 5 steps work for ANY fresh stain.</strong> Follow them immediately — before you even identify the stain type.</p>
+      <ol>
+        <li><strong>DON'T RUB — blot gently.</strong> Press a clean white cloth onto the stain. Lift and repeat. Rubbing pushes the stain deeper into fiber structure.</li>
+        <li><strong>COLD WATER immediately.</strong> Flush from the back of the fabric with cold water. <strong>NEVER hot</strong> — heat sets most stains permanently.</li>
+        <li><strong>Work from OUTSIDE IN.</strong> Treat edges first, then move toward the center. Working outward spreads the stain into clean fabric.</li>
+        <li><strong>Check the fabric care label.</strong> Some fabrics (silk, wool) need special care. When in doubt, stick to cold water only.</li>
+        <li><strong>Apply appropriate treatment.</strong> Use the guide for your specific stain type above. Keep the stain wet until treated — <strong>a dry stain is a set stain.</strong></li>
+      </ol>
+    </div>
+
+    <h2>⏱️ Timing Matters</h2>
+    <p>Every minute counts. Here's what you're working with:</p>
+
+    <div class="timing-grid">
+      <div class="timing-item">
+        <span class="timing-window best">0–30 min</span>
+        <span class="timing-desc"><strong>Best chance.</strong> Most stains are fully removable with cold water and basic treatment. Act now.</span>
+      </div>
+      <div class="timing-item">
+        <span class="timing-window ok">30 min–2 hr</span>
+        <span class="timing-desc"><strong>Still treatable.</strong> Stain is setting but hasn't bonded fully. Soak in cold water with stain remover.</span>
+      </div>
+      <div class="timing-item">
+        <span class="timing-window hard">2–24 hours</span>
+        <span class="timing-desc"><strong>Getting difficult.</strong> Stain may be oxidizing and setting. Extended soaking with enzyme-based remover needed.</span>
+      </div>
+      <div class="timing-item">
+        <span class="timing-window set">After washing</span>
+        <span class="timing-desc"><strong>Much harder but not impossible.</strong> Heat from washing/drying may have set the stain. Needs specialized treatment.</span>
+      </div>
+    </div>
+
+    <h2>Quick Guide by Stain Type</h2>
+
+    <div class="card">
+      <h3>🍷 Red Wine</h3>
+      <p><strong>Do:</strong> Cold water immediately. Blot with white cloth. Soak in stain remover (Sil or similar) for 30–60 minutes.</p>
+      <p><strong>Don't:</strong> Use salt (myth — it can set the stain). Don't use hot water.</p>
+      <p><a href="/stains/red-wine-on-cotton-fabric.html">Full wine stain guide →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>☕ Coffee / Tea</h3>
+      <p><strong>Do:</strong> Cold water flush immediately. Apply stain remover. Soak 30 minutes. Wash at maximum care-label temperature.</p>
+      <p><strong>Don't:</strong> Let it dry. Tannin stains bond with fibers as they oxidize.</p>
+    </div>
+
+    <div class="card">
+      <h3>🩸 Blood</h3>
+      <p><strong>Do:</strong> COLD water only. Soak in cold water for 30 minutes. Use enzyme-based stain remover.</p>
+      <p><strong>Don't:</strong> Use warm or hot water — this permanently bonds blood proteins (hemoglobin) to fibers.</p>
+    </div>
+
+    <div class="card">
+      <h3>🥤 Juice / Berries</h3>
+      <p><strong>Do:</strong> Cold water flush immediately. Oxygen bleach stain remover works well on fruit stains.</p>
+      <p><strong>Don't:</strong> Use soap first — some soaps can set fruit tannins.</p>
+      <p><a href="/stains/berry-on-clothing.html">Full berry stain guide →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>🖊️ Ink / Marker</h3>
+      <p><strong>Do:</strong> Blot with rubbing alcohol or hand sanitizer. Place fabric stain-side down on paper towel. Dab from behind.</p>
+      <p><strong>Don't:</strong> Use water first on ballpoint ink — it can spread. Test alcohol on hidden area first.</p>
+      <p><a href="/stains/pigment-on-clothing.html">Full ink stain guide →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>🍝 Food / Sauce</h3>
+      <p><strong>Do:</strong> Scrape off excess. Cold water flush. For curry/turmeric: soak with oxygen bleach. Sunlight helps fade curcumin.</p>
+      <p><strong>Don't:</strong> Use hot water. Don't rub — turmeric pigment spreads easily.</p>
+      <p><a href="/stains/curry-on-clothing.html">Full food stain guide →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>🌿 Grass / Mud</h3>
+      <p><strong>Do:</strong> Let mud dry completely, then brush off. Treat remaining stain with enzyme-based remover. Grass: soak in oxygen bleach.</p>
+      <p><strong>Don't:</strong> Rub wet mud — it pushes deeper into fibers. Don't use hot water on grass (chlorophyll sets).</p>
+      <p><a href="/stains/">Browse all stain guides →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>🛢️ Oil / Grease</h3>
+      <p><strong>Do:</strong> Apply dish soap directly on the stain. Work in gently. Wait 10 minutes. Wash with warm water.</p>
+      <p><strong>Don't:</strong> Use cold water first (exception to the rule — grease needs warmth to dissolve).</p>
+      <p><a href="/stains/curry-oil-halo-on-fabric.html">Full grease stain guide →</a></p>
+    </div>
+
+    <h2>The 4 Things That Make Stains Permanent</h2>
+    <div class="card">
+      <ol>
+        <li><strong>Heat</strong> — Hot water, dryers, and irons bond stain molecules to fibers</li>
+        <li><strong>Time</strong> — Every hour gives the stain more time to oxidize and set</li>
+        <li><strong>Rubbing</strong> — Pushes stain deeper into fiber structure</li>
+        <li><strong>Wrong treatment</strong> — Hot water on blood, soap on fruit, salt on wine</li>
+      </ol>
+      <p>Avoid all four and most fresh stains are completely removable.</p>
+    </div>
+
+    <h2>Don't Have Stain Remover?</h2>
+    <p>Use what you have:</p>
+    <ul>
+      <li><strong>Cold water</strong> — always the first step and surprisingly effective alone</li>
+      <li><strong>Dish soap</strong> — great for grease, decent on other stains</li>
+      <li><strong>White vinegar</strong> — helps with coffee, tea, and deodorant stains</li>
+      <li><strong>Baking soda paste</strong> — mild cleaner for fresh stains on light fabrics</li>
+      <li><strong>Rubbing alcohol</strong> — effective on ink and marker stains</li>
+    </ul>
+
+    <h2>Find Your Specific Guide</h2>
+    <p>We have 108+ detailed guides for specific stain-fabric combinations:</p>
+    <p><a href="/stains/" style="display:inline-block;background:#111;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:600;">Browse All 108+ Stain Guides →</a></p>
+
+    <div class="related-content">
+      <div class="related-products">
+        <h3>Get the Right Product</h3>
+        <ul>
+          <li><a href="/products/">Compare all products</a></li>
+          <li><a href="/products/where-to-buy-stain-removers.html">Where to buy</a></li>
+        </ul>
+      </div>
+      <div class="related-stains">
+        <h3>Most Common Stains</h3>
+        <ul>
+          <li><a href="/stains/red-wine-on-cotton-fabric.html">Red wine on cotton</a></li>
+          <li><a href="/stains/curry-on-clothing.html">Curry on clothing</a></li>
+          <li><a href="/stains/berry-on-clothing.html">Berry on clothing</a></li>
+        </ul>
+      </div>
+      <div class="fabric-alternatives">
+        <h3>Prepare for Next Time</h3>
+        <ul>
+          <li><a href="/prevention/">Stain prevention tips</a></li>
+          <li><a href="/tools/">Build a stain removal kit</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="meta">Last verified: <time datetime="2026-02">February 2026</time></p>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/methodology.html">Methodology</a>
+        <a href="/stains/">All Stains</a>
+        <a href="/products/">Products</a>
+      </div>
+      <div class="footer-lang">
+        <a href="/">English</a> · <a href="/de/">Deutsch</a>
+      </div>
+      <p class="footer-copy">© 2026 Fabric Care Guide. Evidence-based fabric care.</p>
+    </div>
+  </footer>
+</body>
+</html>

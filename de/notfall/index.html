@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flecken-Notfall — Was haben Sie verschüttet? Sofort handeln! | Stoffpflege-Ratgeber</title>
+  <meta name="description" content="Gerade einen Fleck bekommen? Keine Panik. Fleckenart identifizieren, universelle Erste-Hilfe-Schritte befolgen und schnell handeln. Sofort-Hilfe für Wein, Kaffee, Blut, Fett und mehr." />
+  <link rel="canonical" href="https://fabriccare.guide/de/notfall/" />
+
+  <link rel="alternate" hreflang="en" href="https://fabriccare.guide/emergency/" />
+  <link rel="alternate" hreflang="de" href="https://fabriccare.guide/de/notfall/" />
+  <link rel="alternate" hreflang="x-default" href="https://fabriccare.guide/emergency/" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Universelle Flecken-Erste-Hilfe — Notfallschritte für jeden Fleck",
+  "description": "Fünf universelle Schritte, die für jeden frischen Fleck funktionieren. Befolgen Sie diese sofort, während Sie die spezifische Fleckenart identifizieren.",
+  "inLanguage": "de",
+  "totalTime": "PT5M",
+  "supply": [
+    { "@type": "HowToSupply", "name": "Sauberes weißes Tuch oder Küchenpapier" },
+    { "@type": "HowToSupply", "name": "Kaltes Wasser" }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Nicht reiben — vorsichtig tupfen",
+      "text": "Drücken Sie ein sauberes weißes Tuch fest auf den Fleck. Anheben und wiederholen. Niemals reiben oder schrubben — das drückt den Fleck tiefer in die Faserstruktur."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Sofort kaltes Wasser",
+      "text": "Spülen Sie den Fleck von der Rückseite des Stoffes mit kaltem Wasser. NIEMALS heißes Wasser verwenden — Hitze denaturiert Proteine und fixiert Gerbstoffe dauerhaft in den Fasern."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Von außen nach innen arbeiten",
+      "text": "Behandeln Sie einen Fleck immer von den äußeren Rändern zur Mitte. Arbeiten Sie nicht von der Mitte nach außen — das drückt den Fleck in sauberen Stoff."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Pflegeetikett prüfen",
+      "text": "Bevor Sie eine Behandlung anwenden, prüfen Sie das Pflegeetikett des Kleidungsstücks. Manche Stoffe (Seide, Wolle) vertragen bestimmte Chemikalien nicht."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Geeignete Behandlung anwenden",
+      "text": "Sobald der Fleck identifiziert ist, wenden Sie die spezifische Behandlung für diese Fleckenart an. Halten Sie den Fleck feucht bis zur vollständigen Behandlung — ein trockener Fleck ist schwerer zu entfernen."
+    }
+  ]
+}
+</script>
+
+  <link rel="stylesheet" href="/assets/style.css" />
+  <style>
+    /* Notfall-Seite mobile-first Stile */
+    .triage-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin: 20px 0;
+    }
+    .triage-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 18px 12px;
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--primary);
+      background: #fff;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .triage-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+      text-decoration: none;
+    }
+    .triage-icon {
+      font-size: 2.2rem;
+      margin-bottom: 6px;
+      line-height: 1;
+    }
+    .triage-label {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    @media (min-width: 480px) {
+      .triage-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    .first-aid-steps {
+      border-left: 4px solid var(--danger);
+      background: linear-gradient(135deg, #fef2f2 0%, #fff 100%);
+    }
+    .first-aid-steps h2 {
+      color: var(--danger);
+      margin-top: 0;
+    }
+    .timing-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin: 16px 0;
+    }
+    .timing-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px;
+      border-radius: var(--radius);
+      background: var(--light-bg);
+    }
+    .timing-window {
+      font-weight: 700;
+      white-space: nowrap;
+      min-width: 90px;
+      font-size: 0.95rem;
+    }
+    .timing-window.best { color: var(--success); }
+    .timing-window.ok { color: var(--warning); }
+    .timing-window.hard { color: var(--danger); }
+    .timing-window.set { color: #6b7280; }
+    .timing-desc {
+      font-size: 0.95rem;
+    }
+    @media (min-width: 480px) {
+      .timing-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <a href="/de/" style="text-decoration:none;">Stoffpflege-Ratgeber</a>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="/de/flecken/">Flecken</a>
+        <a href="/de/produkte/">Produkte</a>
+        <a href="/de/werkzeuge/">Werkzeuge</a>
+        <a href="/de/vorbeugung/">Vorbeugung</a>
+        <a href="/de/methodik.html">Methodik</a>
+        <a href="/de/ueber-uns.html">Über uns</a>
+      </nav>
+      <div class="lang-switch">
+        <a href="https://fabriccare.guide/emergency/" class="">EN</a>
+        <span>|</span>
+        <a href="https://fabriccare.guide/de/notfall/" class="active">DE</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="breadcrumb">
+      <a href="/de/">Startseite</a> / Flecken-Notfall
+    </div>
+
+    <h1>🚨 Flecken-Notfall — Was haben Sie verschüttet?</h1>
+
+    <p class="lede"><strong>Keine Panik.</strong> Tippen Sie unten auf Ihre Fleckenart und befolgen Sie dann die universellen Erste-Hilfe-Schritte. Geschwindigkeit ist alles — ein Fleck, der innerhalb von 5 Minuten behandelt wird, hat eine Entfernungsrate von über 90%.</p>
+
+    <div class="triage-grid">
+      <a href="/de/flecken/red-wine-on-cotton-fabric.html" class="triage-card">
+        <span class="triage-icon">🍷</span>
+        <span class="triage-label">Rotwein</span>
+      </a>
+      <a href="/de/flecken/" class="triage-card">
+        <span class="triage-icon">☕</span>
+        <span class="triage-label">Kaffee / Tee</span>
+      </a>
+      <a href="/de/flecken/" class="triage-card">
+        <span class="triage-icon">🩸</span>
+        <span class="triage-label">Blut</span>
+      </a>
+      <a href="/de/flecken/berry-on-clothing.html" class="triage-card">
+        <span class="triage-icon">🥤</span>
+        <span class="triage-label">Saft / Beeren</span>
+      </a>
+      <a href="/de/flecken/pigment-on-clothing.html" class="triage-card">
+        <span class="triage-icon">🖊️</span>
+        <span class="triage-label">Tinte / Marker</span>
+      </a>
+      <a href="/de/flecken/curry-on-clothing.html" class="triage-card">
+        <span class="triage-icon">🍝</span>
+        <span class="triage-label">Essen / Soße</span>
+      </a>
+      <a href="/de/flecken/" class="triage-card">
+        <span class="triage-icon">🌿</span>
+        <span class="triage-label">Gras / Schlamm</span>
+      </a>
+      <a href="/de/flecken/curry-oil-halo-on-fabric.html" class="triage-card">
+        <span class="triage-icon">🛢️</span>
+        <span class="triage-label">Öl / Fett</span>
+      </a>
+    </div>
+
+    <div class="card first-aid-steps" id="primary-answer">
+      <h2>Universelle Flecken-Erste-Hilfe</h2>
+      <p><strong>Diese 5 Schritte funktionieren für JEDEN frischen Fleck.</strong> Befolgen Sie diese sofort — noch bevor Sie die Fleckenart identifizieren.</p>
+      <ol>
+        <li><strong>NICHT REIBEN — vorsichtig tupfen.</strong> Drücken Sie ein sauberes weißes Tuch auf den Fleck. Anheben und wiederholen. Reiben drückt den Fleck tiefer in die Faserstruktur.</li>
+        <li><strong>Sofort KALTES WASSER.</strong> Von der Rückseite des Stoffes mit kaltem Wasser spülen. <strong>NIEMALS heiß</strong> — Hitze fixiert die meisten Flecken dauerhaft.</li>
+        <li><strong>Von AUSSEN nach INNEN arbeiten.</strong> Erst die Ränder behandeln, dann zur Mitte. Umgekehrt verbreitet sich der Fleck in sauberen Stoff.</li>
+        <li><strong>Pflegeetikett prüfen.</strong> Manche Stoffe (Seide, Wolle) brauchen besondere Pflege. Im Zweifelsfall nur kaltes Wasser verwenden.</li>
+        <li><strong>Geeignete Behandlung anwenden.</strong> Nutzen Sie den Ratgeber für Ihre Fleckenart oben. Halten Sie den Fleck feucht — <strong>ein trockener Fleck ist ein fixierter Fleck.</strong></li>
+      </ol>
+    </div>
+
+    <h2>⏱️ Timing ist entscheidend</h2>
+    <p>Jede Minute zählt. Hier ist Ihre Zeitfenster-Übersicht:</p>
+
+    <div class="timing-grid">
+      <div class="timing-item">
+        <span class="timing-window best">0–30 Min</span>
+        <span class="timing-desc"><strong>Beste Chance.</strong> Die meisten Flecken sind mit kaltem Wasser und einfacher Behandlung vollständig entfernbar. Jetzt handeln.</span>
+      </div>
+      <div class="timing-item">
+        <span class="timing-window ok">30 Min–2 Std</span>
+        <span class="timing-desc"><strong>Noch behandelbar.</strong> Fleck fixiert sich, aber noch nicht vollständig gebunden. In kaltem Wasser mit Fleckentferner einweichen.</span>
+      </div>
+      <div class="timing-item">
+        <span class="timing-window hard">2–24 Stunden</span>
+        <span class="timing-desc"><strong>Wird schwierig.</strong> Fleck oxidiert und fixiert sich. Längeres Einweichen mit enzymbasiertem Fleckentferner nötig.</span>
+      </div>
+      <div class="timing-item">
+        <span class="timing-window set">Nach dem Waschen</span>
+        <span class="timing-desc"><strong>Viel schwieriger, aber nicht unmöglich.</strong> Hitze vom Waschen/Trocknen kann den Fleck fixiert haben. Spezialbehandlung nötig.</span>
+      </div>
+    </div>
+
+    <h2>Schnellhilfe nach Fleckenart</h2>
+
+    <div class="card">
+      <h3>🍷 Rotwein</h3>
+      <p><strong>Tun:</strong> Sofort kaltes Wasser. Mit weißem Tuch tupfen. In Fleckentferner (Sil o.ä.) 30–60 Minuten einweichen.</p>
+      <p><strong>Nicht tun:</strong> Salz verwenden (Mythos — kann den Fleck fixieren). Kein heißes Wasser.</p>
+      <p><a href="/de/flecken/red-wine-on-cotton-fabric.html">Vollständiger Rotwein-Ratgeber →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>☕ Kaffee / Tee</h3>
+      <p><strong>Tun:</strong> Sofort mit kaltem Wasser spülen. Fleckentferner auftragen. 30 Minuten einweichen. Bei maximaler Pflegeetikett-Temperatur waschen.</p>
+      <p><strong>Nicht tun:</strong> Trocknen lassen. Gerbstoff-Flecken binden sich beim Oxidieren an die Fasern.</p>
+    </div>
+
+    <div class="card">
+      <h3>🩸 Blut</h3>
+      <p><strong>Tun:</strong> NUR kaltes Wasser. 30 Minuten in kaltem Wasser einweichen. Enzymbasierten Fleckentferner verwenden.</p>
+      <p><strong>Nicht tun:</strong> Warmes oder heißes Wasser verwenden — das bindet Blutproteine (Hämoglobin) dauerhaft an die Fasern.</p>
+    </div>
+
+    <div class="card">
+      <h3>🥤 Saft / Beeren</h3>
+      <p><strong>Tun:</strong> Sofort mit kaltem Wasser spülen. Sauerstoffbleiche-Fleckentferner wirkt gut bei Obstflecken.</p>
+      <p><strong>Nicht tun:</strong> Zuerst Seife verwenden — manche Seifen können Frucht-Gerbstoffe fixieren.</p>
+      <p><a href="/de/flecken/berry-on-clothing.html">Vollständiger Beeren-Ratgeber →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>🖊️ Tinte / Marker</h3>
+      <p><strong>Tun:</strong> Mit Isopropanol oder Handdesinfektionsmittel tupfen. Stoff mit der Fleckenseite nach unten auf Küchenpapier legen.</p>
+      <p><strong>Nicht tun:</strong> Bei Kugelschreibertinte zuerst Wasser verwenden — kann sich verbreiten. Alkohol erst an versteckter Stelle testen.</p>
+      <p><a href="/de/flecken/pigment-on-clothing.html">Vollständiger Tinten-Ratgeber →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>🍝 Essen / Soße</h3>
+      <p><strong>Tun:</strong> Überschuss abkratzen. Kaltes Wasser. Für Curry/Kurkuma: mit Sauerstoffbleiche einweichen. Sonnenlicht hilft beim Verblassen.</p>
+      <p><strong>Nicht tun:</strong> Heißes Wasser verwenden. Nicht reiben — Kurkuma-Pigment verbreitet sich leicht.</p>
+      <p><a href="/de/flecken/curry-on-clothing.html">Vollständiger Essensflecken-Ratgeber →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>🌿 Gras / Schlamm</h3>
+      <p><strong>Tun:</strong> Schlamm komplett trocknen lassen, dann abbürsten. Restfleck mit enzymbasiertem Entferner behandeln. Gras: in Sauerstoffbleiche einweichen.</p>
+      <p><strong>Nicht tun:</strong> Nassen Schlamm reiben — drückt tiefer in die Fasern. Kein heißes Wasser bei Gras (Chlorophyll fixiert sich).</p>
+      <p><a href="/de/flecken/">Alle Flecken-Ratgeber durchsuchen →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>🛢️ Öl / Fett</h3>
+      <p><strong>Tun:</strong> Spülmittel direkt auf den Fleck auftragen. Vorsichtig einarbeiten. 10 Minuten warten. Mit warmem Wasser waschen.</p>
+      <p><strong>Nicht tun:</strong> Zuerst kaltes Wasser (Ausnahme von der Regel — Fett braucht Wärme zum Lösen).</p>
+      <p><a href="/de/flecken/curry-oil-halo-on-fabric.html">Vollständiger Fettflecken-Ratgeber →</a></p>
+    </div>
+
+    <h2>Die 4 Dinge, die Flecken dauerhaft machen</h2>
+    <div class="card">
+      <ol>
+        <li><strong>Hitze</strong> — Heißes Wasser, Trockner und Bügeleisen binden Fleckenmoleküle an Fasern</li>
+        <li><strong>Zeit</strong> — Jede Stunde gibt dem Fleck mehr Zeit zum Oxidieren und Fixieren</li>
+        <li><strong>Reiben</strong> — Drückt den Fleck tiefer in die Faserstruktur</li>
+        <li><strong>Falsche Behandlung</strong> — Heißes Wasser bei Blut, Seife bei Obst, Salz bei Wein</li>
+      </ol>
+      <p>Vermeiden Sie alle vier und die meisten frischen Flecken sind vollständig entfernbar.</p>
+    </div>
+
+    <h2>Keinen Fleckentferner zur Hand?</h2>
+    <p>Verwenden Sie, was verfügbar ist:</p>
+    <ul>
+      <li><strong>Kaltes Wasser</strong> — immer der erste Schritt und überraschend wirksam allein</li>
+      <li><strong>Spülmittel</strong> — hervorragend bei Fett, brauchbar bei anderen Flecken</li>
+      <li><strong>Weißer Essig</strong> — hilft bei Kaffee-, Tee- und Deoflecken</li>
+      <li><strong>Natronpaste</strong> — milder Reiniger für frische Flecken auf hellen Stoffen</li>
+      <li><strong>Isopropanol</strong> — wirksam bei Tinten- und Markerflecken</li>
+    </ul>
+
+    <h2>Ihren spezifischen Ratgeber finden</h2>
+    <p>Wir haben 108+ detaillierte Ratgeber für spezifische Fleck-Stoff-Kombinationen:</p>
+    <p><a href="/de/flecken/" style="display:inline-block;background:#111;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:600;">Alle 108+ Flecken-Ratgeber durchsuchen →</a></p>
+
+    <div class="related-content">
+      <div class="related-products">
+        <h3>Das richtige Produkt finden</h3>
+        <ul>
+          <li><a href="/de/produkte/">Alle Produkte vergleichen</a></li>
+          <li><a href="/de/produkte/bezugsquellen.html">Wo kaufen</a></li>
+        </ul>
+      </div>
+      <div class="related-stains">
+        <h3>Häufigste Flecken</h3>
+        <ul>
+          <li><a href="/de/flecken/red-wine-on-cotton-fabric.html">Rotwein auf Baumwolle</a></li>
+          <li><a href="/de/flecken/curry-on-clothing.html">Curry auf Kleidung</a></li>
+          <li><a href="/de/flecken/berry-on-clothing.html">Beeren auf Kleidung</a></li>
+        </ul>
+      </div>
+      <div class="fabric-alternatives">
+        <h3>Für nächstes Mal vorbereiten</h3>
+        <ul>
+          <li><a href="/de/vorbeugung/">Tipps zur Fleckenvorbeugung</a></li>
+          <li><a href="/de/werkzeuge/">Fleckenentfernungs-Set zusammenstellen</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="meta">Zuletzt geprüft: <time datetime="2026-02">Februar 2026</time></p>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="/de/ueber-uns.html">Über uns</a>
+        <a href="/de/methodik.html">Methodik</a>
+        <a href="/de/flecken/">Alle Flecken</a>
+        <a href="/de/produkte/">Produkte</a>
+      </div>
+      <div class="footer-lang">
+        <a href="/">English</a> · <a href="/de/">Deutsch</a>
+      </div>
+      <p class="footer-copy">© 2026 Stoffpflege-Ratgeber. Evidenzbasierte Textilpflege.</p>
+    </div>
+  </footer>
+</body>
+</html>

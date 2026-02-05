@@ -106,7 +106,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://fabriccare.guide/stains/by-fabric/cotton.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://fabriccare.guide/de/flecken/by-fabric/cotton.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fabriccare.guide/stains/by-fabric/cotton.html" />
   </url>
   <url>
@@ -115,7 +114,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://fabriccare.guide/stains/by-type/wine.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://fabriccare.guide/de/flecken/by-type/wine.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fabriccare.guide/stains/by-type/wine.html" />
   </url>
   <url>
@@ -1041,9 +1039,7 @@
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fabriccare.guide/stains/beeren-auf-kleidung.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://fabriccare.guide/de/flecken/beeren-auf-kleidung.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://fabriccare.guide/stains/beeren-auf-kleidung.html" />
   </url>
   <url>
     <loc>https://fabriccare.guide/de/flecken/berry-on-carpet-padding.html</loc>
@@ -1149,9 +1145,7 @@
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fabriccare.guide/stains/curry-auf-kleidung.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://fabriccare.guide/de/flecken/curry-auf-kleidung.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://fabriccare.guide/stains/curry-auf-kleidung.html" />
   </url>
   <url>
     <loc>https://fabriccare.guide/de/flecken/curry-oil-halo-on-fabric.html</loc>
@@ -1806,9 +1800,7 @@
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fabriccare.guide/stains/rotwein-auf-baumwolle.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://fabriccare.guide/de/flecken/rotwein-auf-baumwolle.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://fabriccare.guide/stains/rotwein-auf-baumwolle.html" />
   </url>
   <url>
     <loc>https://fabriccare.guide/de/flecken/stronger-cleaner-for.html</loc>
@@ -2031,9 +2023,7 @@
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fabriccare.guide/products/bezugsquellen.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://fabriccare.guide/de/produkte/bezugsquellen.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://fabriccare.guide/products/bezugsquellen.html" />
   </url>
   <url>
     <loc>https://fabriccare.guide/de/produkte/</loc>
@@ -2049,9 +2039,7 @@
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fabriccare.guide/products/sil-1-fuer-alles-test.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://fabriccare.guide/de/produkte/sil-1-fuer-alles-test.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://fabriccare.guide/products/sil-1-fuer-alles-test.html" />
   </url>
   <url>
     <loc>https://fabriccare.guide/de/produkte/sil-vs-vanish.html</loc>
